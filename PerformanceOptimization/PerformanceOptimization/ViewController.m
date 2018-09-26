@@ -95,11 +95,11 @@ UITableViewDataSource
 - (void)initData
 {
     //主页面数据
-    _dataArr = @[@{@"title":@"1. 初识Runtime",
+    _dataArr = @[@{@"title":@"1. 内存五大区域",
                    @"value": @[@"Demo1"],
                    @"class": @[@"Demo1ViewController"]},
-                 @{@"title":@"2.OC系统相关",
-                   @"value": @[@"Demo2 | 消息发送机制",
+                 @{@"title":@"2. 内存管理方案",
+                   @"value": @[@"Demo2 | Tagged Pointer",
                                @"Demo3 | 动态方法解析",
                                @"Demo4 | 消息转发机制"],
                    @"class": @[@"Demo2ViewController",

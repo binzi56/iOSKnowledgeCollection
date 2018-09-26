@@ -16,6 +16,8 @@
 		183F6CBA215A2B9400D3EC63 /* PerformanceOptimizationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6CB9215A2B9400D3EC63 /* PerformanceOptimizationTests.m */; };
 		183F6CC5215A2B9500D3EC63 /* PerformanceOptimizationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6CC4215A2B9500D3EC63 /* PerformanceOptimizationUITests.m */; };
 		183F6CD5215A406000D3EC63 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6CD4215A406000D3EC63 /* Demo1ViewController.m */; };
+		18A01E05215B63CB0083EC54 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A01E04215B63CB0083EC54 /* Demo2ViewController.m */; };
+		18A01E09215B78400083EC54 /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A01E08215B78400083EC54 /* Demo3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		183F6CC6215A2B9500D3EC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183F6CD3215A406000D3EC63 /* Demo1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
 		183F6CD4215A406000D3EC63 /* Demo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		18A01E03215B63CB0083EC54 /* Demo2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		18A01E04215B63CB0083EC54 /* Demo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
+		18A01E07215B78400083EC54 /* Demo3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo3ViewController.h; sourceTree = "<group>"; };
+		18A01E08215B78400083EC54 /* Demo3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo3ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,8 @@
 				183F6CA1215A2B8F00D3EC63 /* AppDelegate.m */,
 				183F6CA3215A2B8F00D3EC63 /* ViewController.h */,
 				183F6CA4215A2B8F00D3EC63 /* ViewController.m */,
+				18A01E06215B78340083EC54 /* Demo3 */,
+				18A01E02215B63B30083EC54 /* Demo2 */,
 				183F6CD2215A404700D3EC63 /* Demo1 */,
 				183F6CA6215A2B8F00D3EC63 /* Main.storyboard */,
 				183F6CA9215A2B9400D3EC63 /* Assets.xcassets */,
@@ -143,6 +151,24 @@
 				183F6CD4215A406000D3EC63 /* Demo1ViewController.m */,
 			);
 			path = Demo1;
+			sourceTree = "<group>";
+		};
+		18A01E02215B63B30083EC54 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				18A01E03215B63CB0083EC54 /* Demo2ViewController.h */,
+				18A01E04215B63CB0083EC54 /* Demo2ViewController.m */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		18A01E06215B78340083EC54 /* Demo3 */ = {
+			isa = PBXGroup;
+			children = (
+				18A01E07215B78400083EC54 /* Demo3ViewController.h */,
+				18A01E08215B78400083EC54 /* Demo3ViewController.m */,
+			);
+			path = Demo3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,8 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A01E05215B63CB0083EC54 /* Demo2ViewController.m in Sources */,
 				183F6CA5215A2B8F00D3EC63 /* ViewController.m in Sources */,
 				183F6CD5215A406000D3EC63 /* Demo1ViewController.m in Sources */,
+				18A01E09215B78400083EC54 /* Demo3ViewController.m in Sources */,
 				183F6CB0215A2B9400D3EC63 /* main.m in Sources */,
 				183F6CA2215A2B8F00D3EC63 /* AppDelegate.m in Sources */,
 			);

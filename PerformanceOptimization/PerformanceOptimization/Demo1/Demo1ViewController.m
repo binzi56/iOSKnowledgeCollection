@@ -14,9 +14,43 @@
 
 @implementation Demo1ViewController
 
+// 全局区
+int g1;
+static int s1;
+
+// 数据段
+int g2 = 0;
+static int s2 = 0;
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    // 栈区
+    int i = 10;
+    int j = 10;
+    NSObject *obj = [NSObject new];
+    
+    NSLog(@"==========栈区==============");
+    NSLog(@"%p", &i);
+    NSLog(@"%p", &j);
+    NSLog(@"%p", &obj);
+    
+    // 堆区
+    NSObject *obj1 = [NSObject new];
+    NSObject *obj2 = [NSObject new];
+    NSLog(@"==========堆区==============");
+    NSLog(@"%p", obj);
+    NSLog(@"%p", obj1);
+    NSLog(@"%p", obj2);
+
+    // 全局区
+    NSLog(@"%p", &g1);
+    NSLog(@"%p", &s1);
+    
+    NSLog(@"%p", &g2);
+    NSLog(@"%p", &s2);
 }
 
 - (void)didReceiveMemoryWarning {
