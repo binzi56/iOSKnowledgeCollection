@@ -186,6 +186,6 @@ weak_entry_remove(weak_table, entry);
 
 ## 学习：
 * [深入剖析 iOS 性能优化](https://www.jianshu.com/p/c58001ae3da5)
-*[微信读书 iOS 性能优化总结](http://wereadteam.github.io/2016/05/03/WeRead-Performance/)
-*[iOS 保持界面流畅的技巧](https://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/)
-*[详解优化iOS程序性能的25个方法](https://www.jb51.net/article/101261.htm)
+* [微信读书 iOS 性能优化总结](http://wereadteam.github.io/2016/05/03/WeRead-Performance/)
+* [iOS 保持界面流畅的技巧](https://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/)
+* [详解优化iOS程序性能的25个方法](https://www.jb51.net/article/101261.htm)
