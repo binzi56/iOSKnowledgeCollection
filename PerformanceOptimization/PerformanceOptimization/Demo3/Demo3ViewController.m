@@ -8,15 +8,62 @@
 
 #import "Demo3ViewController.h"
 
+
+//struct Test {
+//    Test() {
+//        printf("Test() \n");       //入栈调用
+//    }
+//
+//    ~Test() {                      //出栈调用
+//        printf("~Test() \n");
+//    }
+//};
+
 @interface Demo3ViewController ()
 
 @end
 
 @implementation Demo3ViewController
 
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //1.基本调用过程
+    @autoreleasepool {
+        
+    }
+    
+    
+    /*
+     { __AtAutoreleasePool __autoreleasepool;
+     
+     }
+     
+     
+     struct __AtAutoreleasePool {
+     __AtAutoreleasePool() {
+     atautoreleasepoolobj = objc_autoreleasePoolPush();
+     
+     }
+     ~__AtAutoreleasePool() {
+     objc_autoreleasePoolPop(atautoreleasepoolobj);
+     
+     }
+     void * atautoreleasepoolobj;
+     };
+     
+     */
+    
+    
+    //结构体讲解
+//    {
+//        Test t;
+//    }
+    
 }
 
 - (void)didReceiveMemoryWarning {

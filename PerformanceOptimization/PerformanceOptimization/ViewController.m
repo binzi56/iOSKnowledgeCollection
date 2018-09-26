@@ -100,7 +100,7 @@ UITableViewDataSource
                    @"class": @[@"Demo1ViewController"]},
                  @{@"title":@"2. 内存管理方案",
                    @"value": @[@"Demo2 | Tagged Pointer",
-                               @"Demo3 | 散列表",
+                               @"Demo3 | Autoreleasepool",
                                @"Demo4 | 消息转发机制"],
                    @"class": @[@"Demo2ViewController",
                                @"Demo3ViewController",
