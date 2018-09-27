@@ -18,6 +18,7 @@
 		183F6CD5215A406000D3EC63 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6CD4215A406000D3EC63 /* Demo1ViewController.m */; };
 		18A01E05215B63CB0083EC54 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A01E04215B63CB0083EC54 /* Demo2ViewController.m */; };
 		18A01E09215B78400083EC54 /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A01E08215B78400083EC54 /* Demo3ViewController.m */; };
+		18A01E2A215C7D4B0083EC54 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18A01E29215C7D4B0083EC54 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		18A01E04215B63CB0083EC54 /* Demo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
 		18A01E07215B78400083EC54 /* Demo3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo3ViewController.h; sourceTree = "<group>"; };
 		18A01E08215B78400083EC54 /* Demo3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo3ViewController.m; sourceTree = "<group>"; };
+		18A01E29215C7D4B0083EC54 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				183F6CAB215A2B9400D3EC63 /* LaunchScreen.storyboard */,
 				183F6CAE215A2B9400D3EC63 /* Info.plist */,
 				183F6CAF215A2B9400D3EC63 /* main.m */,
+				18A01E29215C7D4B0083EC54 /* README.md */,
 			);
 			path = PerformanceOptimization;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				183F6CAD215A2B9400D3EC63 /* LaunchScreen.storyboard in Resources */,
 				183F6CAA215A2B9400D3EC63 /* Assets.xcassets in Resources */,
+				18A01E2A215C7D4B0083EC54 /* README.md in Resources */,
 				183F6CA8215A2B8F00D3EC63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
