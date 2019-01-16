@@ -100,18 +100,12 @@ UITableViewDataSource
                    @"class": @[@"Demo1ViewController"]},
                  @{@"title":@"2. 内存管理方案",
                    @"value": @[@"Demo2 | Tagged Pointer",
-                               @"Demo3 | Autoreleasepool",
-                               @"Demo4 | 消息转发机制"],
+                               @"Demo3 | Autoreleasepool"],
                    @"class": @[@"Demo2ViewController",
-                               @"Demo3ViewController",
-                               @"Demo4ViewController"]},
-                 @{@"title":@"3.Runtime实际应用",
-                   @"value": @[@"Demo5 | 创建类，对象，方法",
-                               @"Demo6 | 方法交换",
-                               @"Demo6 | NSCoding的自动归档和解档"],
-                   @"class": @[@"Demo5ViewController",
-                               @"Demo6ViewController",
-                               @"Demo7ViewController"]}
+                               @"Demo3ViewController"]},
+                 @{@"title":@"3.内存泄露",
+                   @"value": @[@"Demo4 | 内存泄露"],
+                   @"class": @[@"Demo4ViewController"]}
                  ];
 }
 
