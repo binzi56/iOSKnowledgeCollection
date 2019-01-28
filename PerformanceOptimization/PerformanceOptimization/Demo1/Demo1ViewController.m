@@ -58,6 +58,10 @@ static int s2 = 0;
     // Dispose of any resources that can be recreated.
 }
 
+- (void)printDemo1{
+    NSLog(@"打印demo1成功");
+}
+
 /*
 #pragma mark - Navigation
 

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface Demo1ViewController : UIViewController
-
+- (void)printDemo1;
 @end
