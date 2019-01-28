@@ -1,5 +1,5 @@
 # iOS | 性能优化
-[![Build Status](https://travis-ci.org/binzi56/iOSKnowledgeCollection.svg?branch=master)](https://travis-ci.org/binzi56/iOSKnowledgeCollection)
+
 ### 一、目录
 1. 内存五大区域
 2. 内存管理方案
