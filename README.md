@@ -1,4 +1,5 @@
 # iOSKnowledgeCollection
+[![Build Status](https://travis-ci.org/binzi56/iOSKnowledgeCollection.svg?branch=master)](https://travis-ci.org/binzi56/iOSKnowledgeCollection)
 整理iOS相关进阶知识
 
 
