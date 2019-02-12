@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183E211E2212B79C00ADE451 /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E211D2212B79C00ADE451 /* Demo4ViewController.m */; };
 		183F6CA2215A2B8F00D3EC63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6CA1215A2B8F00D3EC63 /* AppDelegate.m */; };
 		183F6CA5215A2B8F00D3EC63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183F6CA4215A2B8F00D3EC63 /* ViewController.m */; };
 		183F6CA8215A2B8F00D3EC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183F6CA6215A2B8F00D3EC63 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183E211C2212B79C00ADE451 /* Demo4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo4ViewController.h; sourceTree = "<group>"; };
+		183E211D2212B79C00ADE451 /* Demo4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4ViewController.m; sourceTree = "<group>"; };
 		183F6C9D215A2B8F00D3EC63 /* PerformanceOptimization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerformanceOptimization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183F6CA0215A2B8F00D3EC63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		183F6CA1215A2B8F00D3EC63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183E211B2212B78800ADE451 /* Demo4 */ = {
+			isa = PBXGroup;
+			children = (
+				183E211C2212B79C00ADE451 /* Demo4ViewController.h */,
+				183E211D2212B79C00ADE451 /* Demo4ViewController.m */,
+			);
+			path = Demo4;
+			sourceTree = "<group>";
+		};
 		183F6C94215A2B8F00D3EC63 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +130,7 @@
 				183F6CA1215A2B8F00D3EC63 /* AppDelegate.m */,
 				183F6CA3215A2B8F00D3EC63 /* ViewController.h */,
 				183F6CA4215A2B8F00D3EC63 /* ViewController.m */,
+				183E211B2212B78800ADE451 /* Demo4 */,
 				18A01E06215B78340083EC54 /* Demo3 */,
 				18A01E02215B63B30083EC54 /* Demo2 */,
 				183F6CD2215A404700D3EC63 /* Demo1 */,
@@ -311,6 +324,7 @@
 				18A01E05215B63CB0083EC54 /* Demo2ViewController.m in Sources */,
 				183F6CA5215A2B8F00D3EC63 /* ViewController.m in Sources */,
 				183F6CD5215A406000D3EC63 /* Demo1ViewController.m in Sources */,
+				183E211E2212B79C00ADE451 /* Demo4ViewController.m in Sources */,
 				18A01E09215B78400083EC54 /* Demo3ViewController.m in Sources */,
 				183F6CB0215A2B9400D3EC63 /* main.m in Sources */,
 				183F6CA2215A2B8F00D3EC63 /* AppDelegate.m in Sources */,
