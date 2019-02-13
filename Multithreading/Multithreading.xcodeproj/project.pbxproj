@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		183E21AF2213A9E900ADE451 /* KCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E21AE2213A9E900ADE451 /* KCPerson.m */; };
 		183E21B32213FA1000ADE451 /* Demo4VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E21B22213FA1000ADE451 /* Demo4VC.m */; };
+		183E21B722140B9300ADE451 /* Demo5VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E21B622140B9300ADE451 /* Demo5VC.m */; };
+		183E21BB22140BA600ADE451 /* Demo6VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E21BA22140BA600ADE451 /* Demo6VC.m */; };
 		18F1588A2203E6EA00457E50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F158892203E6EA00457E50 /* AppDelegate.m */; };
 		18F1588D2203E6EA00457E50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1588C2203E6EA00457E50 /* ViewController.m */; };
 		18F158902203E6EA00457E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F1588E2203E6EA00457E50 /* Main.storyboard */; };
@@ -44,6 +46,10 @@
 		183E21AE2213A9E900ADE451 /* KCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCPerson.m; sourceTree = "<group>"; };
 		183E21B12213FA1000ADE451 /* Demo4VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo4VC.h; sourceTree = "<group>"; };
 		183E21B22213FA1000ADE451 /* Demo4VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4VC.m; sourceTree = "<group>"; };
+		183E21B522140B9300ADE451 /* Demo5VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo5VC.h; sourceTree = "<group>"; };
+		183E21B622140B9300ADE451 /* Demo5VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo5VC.m; sourceTree = "<group>"; };
+		183E21B922140BA600ADE451 /* Demo6VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo6VC.h; sourceTree = "<group>"; };
+		183E21BA22140BA600ADE451 /* Demo6VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo6VC.m; sourceTree = "<group>"; };
 		18F158852203E6EA00457E50 /* Multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multithreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F158882203E6EA00457E50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F158892203E6EA00457E50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +108,24 @@
 			path = Demo4;
 			sourceTree = "<group>";
 		};
+		183E21B422140B8100ADE451 /* Demo5 */ = {
+			isa = PBXGroup;
+			children = (
+				183E21B522140B9300ADE451 /* Demo5VC.h */,
+				183E21B622140B9300ADE451 /* Demo5VC.m */,
+			);
+			path = Demo5;
+			sourceTree = "<group>";
+		};
+		183E21B822140B9800ADE451 /* Demo6 */ = {
+			isa = PBXGroup;
+			children = (
+				183E21B922140BA600ADE451 /* Demo6VC.h */,
+				183E21BA22140BA600ADE451 /* Demo6VC.m */,
+			);
+			path = Demo6;
+			sourceTree = "<group>";
+		};
 		18F1587C2203E6EA00457E50 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +153,8 @@
 				18F158892203E6EA00457E50 /* AppDelegate.m */,
 				18F1588B2203E6EA00457E50 /* ViewController.h */,
 				18F1588C2203E6EA00457E50 /* ViewController.m */,
+				183E21B822140B9800ADE451 /* Demo6 */,
+				183E21B422140B8100ADE451 /* Demo5 */,
 				183E21B02213F9FB00ADE451 /* Demo4 */,
 				18F158BE220541B400457E50 /* Demo3 */,
 				18F158BD220541AD00457E50 /* Demo2 */,
@@ -319,11 +345,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183E21BB22140BA600ADE451 /* Demo6VC.m in Sources */,
 				18F1588D2203E6EA00457E50 /* ViewController.m in Sources */,
 				18F158982203E6EF00457E50 /* main.m in Sources */,
 				18F1588A2203E6EA00457E50 /* AppDelegate.m in Sources */,
 				18F158C4220541DC00457E50 /* Demo2VC.m in Sources */,
 				18F158C1220541D300457E50 /* Demo1VC.m in Sources */,
+				183E21B722140B9300ADE451 /* Demo5VC.m in Sources */,
 				18F158C7220541E700457E50 /* Demo3VC.m in Sources */,
 				183E21B32213FA1000ADE451 /* Demo4VC.m in Sources */,
 				183E21AF2213A9E900ADE451 /* KCPerson.m in Sources */,
@@ -497,7 +525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24PAAZ557K;
 				INFOPLIST_FILE = Multithreading/Info.plist;
@@ -515,7 +543,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24PAAZ557K;
 				INFOPLIST_FILE = Multithreading/Info.plist;

@@ -17,6 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    //mei tuan
+    __block int a = 0;
+    while (a < 5) {
+        dispatch_async(dispatch_get_global_queue(0, 0), ^{
+            NSLog(@"currentThread:%@========a:%d", [NSThread currentThread], a);
+        });
+    }
+    NSLog(@"currentThread:%@==******==a:%d", [NSThread currentThread], a);
+
+    
+//    [self mainSyncTest];
 }
 
 /**
