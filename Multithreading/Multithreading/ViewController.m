@@ -33,12 +33,10 @@ UITableViewDataSource
     NSArray *valueArr = tempDic[@"value"];
     NSArray *classArr = tempDic[@"class"];
     
-//    NSString *className = classArr[indexPath.row];
-//
-//    UIViewController *subViewController = [[NSClassFromString(className) alloc] init];
-//    subViewController.title = valueArr[indexPath.row];
-    
-    UIViewController *subViewController = [Demo2VC new];
+    NSString *className = classArr[indexPath.row];
+
+    UIViewController *subViewController = [[NSClassFromString(className) alloc] init];
+    subViewController.title = valueArr[indexPath.row];
     
     [self.navigationController pushViewController:subViewController animated:YES];
 }
@@ -74,7 +72,7 @@ UITableViewDataSource
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *mainCellIdentifier = @"com.huozhiyu.mainCellIdentifier";
+    static NSString *mainCellIdentifier = @"cm.huozhiyu.mainCellIdentifier";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:mainCellIdentifier];
     
@@ -99,16 +97,18 @@ UITableViewDataSource
 {
     //主页面数据
     _dataArr = @[@{@"title":@"1. 相关概念",
-                   @"value": @[@"Demo1"],
-                   @"class": @[@"Demo1VC"]},
+                   @"value": @[@"Demo1",
+                               @"Demo2 | 线程间的通讯"],
+                   @"class": @[@"Demo1VC",
+                               @"Demo2VC"]},
                  @{@"title":@"2. 多线程的方案",
-                   @"value": @[@"Demo2 | Tagged Pointer",
-                               @"Demo3 | Autoreleasepool"],
-                   @"class": @[@"Demo2VC",
-                               @"Demo3ViewController"]},
+                   @"value": @[@"Demo3 | NSThread",
+                               @"Demo4 | Autoreleasepool"],
+                   @"class": @[@"Demo3VC",
+                               @"Demo4ViewController"]},
                  @{@"title":@"3.内存泄露",
-                   @"value": @[@"Demo4 | 内存泄露"],
-                   @"class": @[@"Demo4ViewController"]}
+                   @"value": @[@"Demo5 | 内存泄露"],
+                   @"class": @[@"Demo5ViewController"]}
                  ];
 }
 
@@ -137,11 +137,6 @@ UITableViewDataSource
     self.navigationController.navigationBar.translucent = NO;
     
     [self.navigationController setToolbarHidden:YES animated:animated];
-}
-
-- (void)dealloc
-{
-    NSLog(@"销毁了");
 }
 
 

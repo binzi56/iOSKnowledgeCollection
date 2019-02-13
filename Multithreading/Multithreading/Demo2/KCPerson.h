@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface KCPerson : NSObject
-
+- (void)personLaunchThreadWithPort:(NSPort *)port;
 @end
 
 NS_ASSUME_NONNULL_END

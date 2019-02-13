@@ -18,7 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor brownColor];
+
     
     // thread
     [NSThread detachNewThreadSelector:@selector(threadTest) toTarget:self withObject:nil];
