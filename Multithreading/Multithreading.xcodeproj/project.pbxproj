@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		183E21AF2213A9E900ADE451 /* KCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E21AE2213A9E900ADE451 /* KCPerson.m */; };
+		183E21B32213FA1000ADE451 /* Demo4VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E21B22213FA1000ADE451 /* Demo4VC.m */; };
 		18F1588A2203E6EA00457E50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F158892203E6EA00457E50 /* AppDelegate.m */; };
 		18F1588D2203E6EA00457E50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1588C2203E6EA00457E50 /* ViewController.m */; };
 		18F158902203E6EA00457E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F1588E2203E6EA00457E50 /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		183E21AD2213A9E900ADE451 /* KCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCPerson.h; sourceTree = "<group>"; };
 		183E21AE2213A9E900ADE451 /* KCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCPerson.m; sourceTree = "<group>"; };
+		183E21B12213FA1000ADE451 /* Demo4VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo4VC.h; sourceTree = "<group>"; };
+		183E21B22213FA1000ADE451 /* Demo4VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4VC.m; sourceTree = "<group>"; };
 		18F158852203E6EA00457E50 /* Multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multithreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F158882203E6EA00457E50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F158892203E6EA00457E50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183E21B02213F9FB00ADE451 /* Demo4 */ = {
+			isa = PBXGroup;
+			children = (
+				183E21B12213FA1000ADE451 /* Demo4VC.h */,
+				183E21B22213FA1000ADE451 /* Demo4VC.m */,
+			);
+			path = Demo4;
+			sourceTree = "<group>";
+		};
 		18F1587C2203E6EA00457E50 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +129,7 @@
 				18F158892203E6EA00457E50 /* AppDelegate.m */,
 				18F1588B2203E6EA00457E50 /* ViewController.h */,
 				18F1588C2203E6EA00457E50 /* ViewController.m */,
+				183E21B02213F9FB00ADE451 /* Demo4 */,
 				18F158BE220541B400457E50 /* Demo3 */,
 				18F158BD220541AD00457E50 /* Demo2 */,
 				18F158BC220541A600457E50 /* Demo1 */,
@@ -312,6 +325,7 @@
 				18F158C4220541DC00457E50 /* Demo2VC.m in Sources */,
 				18F158C1220541D300457E50 /* Demo1VC.m in Sources */,
 				18F158C7220541E700457E50 /* Demo3VC.m in Sources */,
+				183E21B32213FA1000ADE451 /* Demo4VC.m in Sources */,
 				183E21AF2213A9E900ADE451 /* KCPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

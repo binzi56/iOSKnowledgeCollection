@@ -97,17 +97,18 @@ UITableViewDataSource
 {
     //主页面数据
     _dataArr = @[@{@"title":@"1. 相关概念",
-                   @"value": @[@"Demo1",
+                   @"value": @[@"Demo1 | 线程堵塞/卡顿",
                                @"Demo2 | 线程间的通讯"],
                    @"class": @[@"Demo1VC",
                                @"Demo2VC"]},
                  @{@"title":@"2. 多线程的方案",
-                   @"value": @[@"Demo3 | NSThread",
-                               @"Demo4 | Autoreleasepool"],
-                   @"class": @[@"Demo3VC",
-                               @"Demo4ViewController"]},
-                 @{@"title":@"3.内存泄露",
-                   @"value": @[@"Demo5 | 内存泄露"],
+                   @"value": @[@"Demo3 | NSThread"],
+                   @"class": @[@"Demo3VC"]},
+                 @{@"title":@"3.GCD",
+                   @"value": @[@"Demo4 | 内存泄露"],
+                   @"class": @[@"Demo4VC"]},
+                 @{@"title":@"4.NSOperation",
+                   @"value": @[@"Demo6 | 内存泄露"],
                    @"class": @[@"Demo5ViewController"]}
                  ];
 }
