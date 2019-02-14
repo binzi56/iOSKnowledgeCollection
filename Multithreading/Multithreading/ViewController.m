@@ -114,8 +114,10 @@ UITableViewDataSource
                                @"Demo6VC",
                                @"Demo7VC"]},
                  @{@"title":@"4.NSOperation",
-                   @"value": @[@"Demo6 | 内存泄露"],
-                   @"class": @[@"Demo6VC"]}
+                   @"value": @[@"Demo8 | 初体验",
+                               @"Demo9 | 深入浅出"],
+                   @"class": @[@"Demo8VC",
+                               @"Demo9VC"]}
                  ];
 }
 
