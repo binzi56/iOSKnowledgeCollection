@@ -114,10 +114,12 @@ UITableViewDataSource
                                @"Demo6VC",
                                @"Demo7VC"]},
                  @{@"title":@"4.NSOperation",
-                   @"value": @[@"Demo8 | 初体验",
-                               @"Demo9 | 深入浅出"],
+                   @"value": @[@"Demo8 | 相关用法",
+                               @"Demo9 | 进阶用法(控制,暂停,依赖)",
+                               @"Demo10 | 自定义NSOperation"],
                    @"class": @[@"Demo8VC",
-                               @"Demo9VC"]}
+                               @"Demo9VC",
+                               @"Demo10VC"]}
                  ];
 }
 

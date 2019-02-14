@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // 内存 --> 硬盘 --> 
 }
 
 @end
