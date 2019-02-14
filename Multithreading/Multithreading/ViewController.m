@@ -105,8 +105,10 @@ UITableViewDataSource
                    @"value": @[@"Demo3 | NSThread"],
                    @"class": @[@"Demo3VC"]},
                  @{@"title":@"3.GCD",
-                   @"value": @[@"Demo4 | 函数与队列关系"],
-                   @"class": @[@"Demo4VC"]},
+                   @"value": @[@"Demo4 | 函数与队列关系",
+                               @"Demo5 | 栅栏函数"],
+                   @"class": @[@"Demo4VC",
+                               @"Demo5VC"]},
                  @{@"title":@"4.NSOperation",
                    @"value": @[@"Demo6 | 内存泄露"],
                    @"class": @[@"Demo6VC"]}
