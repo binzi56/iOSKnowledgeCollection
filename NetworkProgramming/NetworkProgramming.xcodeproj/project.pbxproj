@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		182588C72216AD820059726C /* KCFileStreamNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 182588C62216AD820059726C /* KCFileStreamNetwork.m */; };
+		182588CB2216B3B90059726C /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182588CA2216B3B90059726C /* Demo4ViewController.m */; };
+		182588CF2216B3C90059726C /* Demo5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182588CE2216B3C90059726C /* Demo5ViewController.m */; };
 		183E22182215756D00ADE451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E22172215756D00ADE451 /* AppDelegate.m */; };
 		183E221B2215756D00ADE451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E221A2215756D00ADE451 /* ViewController.m */; };
 		183E221E2215756D00ADE451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183E221C2215756D00ADE451 /* Main.storyboard */; };
@@ -42,6 +44,10 @@
 /* Begin PBXFileReference section */
 		182588C52216AD820059726C /* KCFileStreamNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCFileStreamNetwork.h; sourceTree = "<group>"; };
 		182588C62216AD820059726C /* KCFileStreamNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCFileStreamNetwork.m; sourceTree = "<group>"; };
+		182588C92216B3B90059726C /* Demo4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo4ViewController.h; sourceTree = "<group>"; };
+		182588CA2216B3B90059726C /* Demo4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4ViewController.m; sourceTree = "<group>"; };
+		182588CD2216B3C90059726C /* Demo5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo5ViewController.h; sourceTree = "<group>"; };
+		182588CE2216B3C90059726C /* Demo5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo5ViewController.m; sourceTree = "<group>"; };
 		183E22132215756D00ADE451 /* NetworkProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183E22162215756D00ADE451 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		183E22172215756D00ADE451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,6 +103,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182588C82216B3A70059726C /* Demo4 */ = {
+			isa = PBXGroup;
+			children = (
+				182588C92216B3B90059726C /* Demo4ViewController.h */,
+				182588CA2216B3B90059726C /* Demo4ViewController.m */,
+			);
+			path = Demo4;
+			sourceTree = "<group>";
+		};
+		182588CC2216B3BD0059726C /* Demo5 */ = {
+			isa = PBXGroup;
+			children = (
+				182588CD2216B3C90059726C /* Demo5ViewController.h */,
+				182588CE2216B3C90059726C /* Demo5ViewController.m */,
+			);
+			path = Demo5;
+			sourceTree = "<group>";
+		};
 		183E220A2215756D00ADE451 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +150,8 @@
 				183E22172215756D00ADE451 /* AppDelegate.m */,
 				183E22192215756D00ADE451 /* ViewController.h */,
 				183E221A2215756D00ADE451 /* ViewController.m */,
+				182588CC2216B3BD0059726C /* Demo5 */,
+				182588C82216B3A70059726C /* Demo4 */,
 				183E225022164D1F00ADE451 /* Demo3 */,
 				183E224C22164D0D00ADE451 /* Demo2 */,
 				183E22482215759900ADE451 /* Demo1 */,
@@ -356,6 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182588CB2216B3B90059726C /* Demo4ViewController.m in Sources */,
 				183E224F22164D1A00ADE451 /* Demo2ViewController.m in Sources */,
 				182588C72216AD820059726C /* KCFileStreamNetwork.m in Sources */,
 				183E221B2215756D00ADE451 /* ViewController.m in Sources */,
@@ -363,6 +390,7 @@
 				183E225322164D2700ADE451 /* Demo3ViewController.m in Sources */,
 				183E22262215757500ADE451 /* main.m in Sources */,
 				183E22182215756D00ADE451 /* AppDelegate.m in Sources */,
+				182588CF2216B3C90059726C /* Demo5ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
