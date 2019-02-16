@@ -102,12 +102,12 @@ UITableViewDataSource
                    @"class": @[@"Demo1ViewController",
                                @"Demo2ViewController",
                                @"Demo3ViewController"]},
-                 @{@"title":@"2. OC与JS交互",
-                   @"value": @[@"Demo4"],
+                 @{@"title":@"2. 网络底层",
+                   @"value": @[@"Demo4 | OC与JS交互"],
                    @"class": @[@"Demo4ViewController"]},
-                 @{@"title":@"3.内存泄露",
-                   @"value": @[@"Demo4 | 内存泄露"],
-                   @"class": @[@"Demo4ViewController"]}
+                 @{@"title":@"3. 网络框架",
+                   @"value": @[@"Demo5 | 内存泄露"],
+                   @"class": @[@"Demo5ViewController"]}
                  ];
 }
 
