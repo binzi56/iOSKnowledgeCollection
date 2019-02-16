@@ -23,3 +23,5 @@
 
 ## 学习：
 [iOS-网络编程(一)HTTP协议](https://www.jianshu.com/p/0dd08712c649)
+[理解Cookie和Session机制](https://www.cnblogs.com/andy-zhou/p/5360107.html)
+

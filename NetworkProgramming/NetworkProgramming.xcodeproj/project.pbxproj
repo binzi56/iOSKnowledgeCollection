@@ -10,6 +10,7 @@
 		182588C72216AD820059726C /* KCFileStreamNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 182588C62216AD820059726C /* KCFileStreamNetwork.m */; };
 		182588CB2216B3B90059726C /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182588CA2216B3B90059726C /* Demo4ViewController.m */; };
 		182588CF2216B3C90059726C /* Demo5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182588CE2216B3C90059726C /* Demo5ViewController.m */; };
+		182588D22217EC6D0059726C /* KCURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 182588D02217EC6C0059726C /* KCURLProtocol.m */; };
 		183E22182215756D00ADE451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E22172215756D00ADE451 /* AppDelegate.m */; };
 		183E221B2215756D00ADE451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183E221A2215756D00ADE451 /* ViewController.m */; };
 		183E221E2215756D00ADE451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183E221C2215756D00ADE451 /* Main.storyboard */; };
@@ -48,6 +49,8 @@
 		182588CA2216B3B90059726C /* Demo4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4ViewController.m; sourceTree = "<group>"; };
 		182588CD2216B3C90059726C /* Demo5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo5ViewController.h; sourceTree = "<group>"; };
 		182588CE2216B3C90059726C /* Demo5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo5ViewController.m; sourceTree = "<group>"; };
+		182588D02217EC6C0059726C /* KCURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCURLProtocol.m; sourceTree = "<group>"; };
+		182588D12217EC6C0059726C /* KCURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCURLProtocol.h; sourceTree = "<group>"; };
 		183E22132215756D00ADE451 /* NetworkProgramming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkProgramming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183E22162215756D00ADE451 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		183E22172215756D00ADE451 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 			children = (
 				182588CD2216B3C90059726C /* Demo5ViewController.h */,
 				182588CE2216B3C90059726C /* Demo5ViewController.m */,
+				182588D12217EC6C0059726C /* KCURLProtocol.h */,
+				182588D02217EC6C0059726C /* KCURLProtocol.m */,
 			);
 			path = Demo5;
 			sourceTree = "<group>";
@@ -385,6 +390,7 @@
 				182588CB2216B3B90059726C /* Demo4ViewController.m in Sources */,
 				183E224F22164D1A00ADE451 /* Demo2ViewController.m in Sources */,
 				182588C72216AD820059726C /* KCFileStreamNetwork.m in Sources */,
+				182588D22217EC6D0059726C /* KCURLProtocol.m in Sources */,
 				183E221B2215756D00ADE451 /* ViewController.m in Sources */,
 				183E224B221575A500ADE451 /* Demo1ViewController.m in Sources */,
 				183E225322164D2700ADE451 /* Demo3ViewController.m in Sources */,

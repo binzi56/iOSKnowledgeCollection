@@ -106,7 +106,7 @@ UITableViewDataSource
                    @"value": @[@"Demo4 | OC与JS交互"],
                    @"class": @[@"Demo4ViewController"]},
                  @{@"title":@"3. 网络框架",
-                   @"value": @[@"Demo5 | 内存泄露"],
+                   @"value": @[@"Demo5 | NSURLProtocol"],
                    @"class": @[@"Demo5ViewController"]}
                  ];
 }
