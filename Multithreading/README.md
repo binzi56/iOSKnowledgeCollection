@@ -7,7 +7,7 @@
 4. NSOperation
 
 ### 二、内容缩略图
-![内容缩略图](https://upload-images.jianshu.io/upload_images/1893416-aa27acfc104062c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![内容缩略图](https://upload-images.jianshu.io/upload_images/1893416-4b4c34b91a8fc3c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 

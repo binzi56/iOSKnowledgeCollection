@@ -12,7 +12,7 @@
 ![性能优化缩略图](https://upload-images.jianshu.io/upload_images/1893416-d934270f67abe2b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### [多线程](https://github.com/binzi56/iOSKnowledgeCollection/tree/master/Multithreading)
-![内容缩略图](https://upload-images.jianshu.io/upload_images/1893416-aa27acfc104062c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![内容缩略图](https://upload-images.jianshu.io/upload_images/1893416-4b4c34b91a8fc3c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### [网络编程](https://github.com/binzi56/iOSKnowledgeCollection/tree/master/NetworkProgramming)
 ![内容缩略图](https://upload-images.jianshu.io/upload_images/1893416-60c9e4fb1e56115a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
