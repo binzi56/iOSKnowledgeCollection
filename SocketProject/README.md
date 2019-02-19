@@ -1,7 +1,9 @@
+# iOS | Socket
+
 ### 一、目录
 1. 基础概念
-2. OC与JS交互
-3. 网络框架
+2. CocoAsycSocket源码分析
+3. 构建TCP框架
 
 ### 二、内容缩略图
 
@@ -16,6 +18,9 @@
 #### 3.3 TCP建立连接~TCP断开连接
 ![TCP建立连接~TCP断开连接](https://upload-images.jianshu.io/upload_images/1893416-45f869f5eb090586.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+注:
+简介一下几个标志，SYN（`synchronous`），同步标志；ACK (`Acknowledgement`），即确认标志；seq(`Sequence Number`)，序列号的意思；另外还有四次握手的fin，应该是`final`，表示结束标志。
+
 #### 3.4 数据封装与解封装过程
 ![数据封装与解封装总过程](https://upload-images.jianshu.io/upload_images/1893416-de36cf775bea737f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -29,7 +34,9 @@
 
 ![数据解封装 图示二](https://upload-images.jianshu.io/upload_images/1893416-a01f8da5a41dd726.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-
+注:
+* mac地址只在本地有效，通过路由器传输过程，mac地址信息会发生变化
+* 路由器根据路由表识别目标IP地址网段信息，确认是否可以进行转发，或是进行数据包的丢弃
 
 ## 学习：
 [OSI七层模型、数据封装与解封装过程、TCP三次握手、四次挥手
