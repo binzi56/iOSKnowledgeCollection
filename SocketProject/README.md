@@ -39,7 +39,6 @@
 * 路由器根据路由表识别目标IP地址网段信息，确认是否可以进行转发，或是进行数据包的丢弃
 
 ## 学习：
-[OSI七层模型、数据封装与解封装过程、TCP三次握手、四次挥手
-](http://blog.51cto.com/13055758/2061535)
-[iOS socket网络编程(一)](https://www.jianshu.com/p/0a050f098a1e)
-[iOS socket网络编程（二）](https://www.jianshu.com/p/ea48c093d8cc)
+* [OSI七层模型、数据封装与解封装过程、TCP三次握手、四次挥手](http://blog.51cto.com/13055758/2061535)
+* [iOS socket网络编程(一)](https://www.jianshu.com/p/0a050f098a1e)
+* [iOS socket网络编程（二）](https://www.jianshu.com/p/ea48c093d8cc)
