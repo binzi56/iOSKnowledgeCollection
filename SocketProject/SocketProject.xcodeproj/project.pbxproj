@@ -22,6 +22,12 @@
 		18323863221BEEFC0033AF7B /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18323862221BEEFC0033AF7B /* Demo3ViewController.m */; };
 		18323865221C1EE20033AF7B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18323864221C1EE10033AF7B /* README.md */; };
 		1832387E221D40F90033AF7B /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832387D221D40F90033AF7B /* Demo4ViewController.m */; };
+		18323881221D44AB0033AF7B /* Demo3ServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18323880221D44AB0033AF7B /* Demo3ServerViewController.m */; };
+		18323886221D46A10033AF7B /* UIBezierPath+point.m in Sources */ = {isa = PBXBuildFile; fileRef = 18323882221D46A10033AF7B /* UIBezierPath+point.m */; };
+		18323887221D46A10033AF7B /* KCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18323885221D46A10033AF7B /* KCView.m */; };
+		1832388A221D46B80033AF7B /* Demo4ServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18323889221D46B80033AF7B /* Demo4ServerViewController.m */; };
+		1832388F221D4C060033AF7B /* Demo5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832388E221D4C060033AF7B /* Demo5ViewController.m */; };
+		18323892221D4C110033AF7B /* Demo6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18323891221D4C110033AF7B /* Demo6ViewController.m */; };
 		52E7DCF10EF8FA156CBBBC99 /* libPods-SocketProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB801BDB30E213523E5DCD7 /* libPods-SocketProject.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +76,18 @@
 		18323864221C1EE10033AF7B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		1832387C221D40F90033AF7B /* Demo4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo4ViewController.h; sourceTree = "<group>"; };
 		1832387D221D40F90033AF7B /* Demo4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4ViewController.m; sourceTree = "<group>"; };
+		1832387F221D44AB0033AF7B /* Demo3ServerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo3ServerViewController.h; sourceTree = "<group>"; };
+		18323880221D44AB0033AF7B /* Demo3ServerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo3ServerViewController.m; sourceTree = "<group>"; };
+		18323882221D46A10033AF7B /* UIBezierPath+point.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+point.m"; sourceTree = "<group>"; };
+		18323883221D46A10033AF7B /* UIBezierPath+point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+point.h"; sourceTree = "<group>"; };
+		18323884221D46A10033AF7B /* KCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCView.h; sourceTree = "<group>"; };
+		18323885221D46A10033AF7B /* KCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCView.m; sourceTree = "<group>"; };
+		18323888221D46B80033AF7B /* Demo4ServerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo4ServerViewController.h; sourceTree = "<group>"; };
+		18323889221D46B80033AF7B /* Demo4ServerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4ServerViewController.m; sourceTree = "<group>"; };
+		1832388D221D4C060033AF7B /* Demo5ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo5ViewController.h; sourceTree = "<group>"; };
+		1832388E221D4C060033AF7B /* Demo5ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo5ViewController.m; sourceTree = "<group>"; };
+		18323890221D4C110033AF7B /* Demo6ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo6ViewController.h; sourceTree = "<group>"; };
+		18323891221D4C110033AF7B /* Demo6ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo6ViewController.m; sourceTree = "<group>"; };
 		277FCAAC8B64C72972D83A49 /* Pods-SocketProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocketProjectUITests/Pods-SocketProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5875B39F8EB2EF5609783659 /* libPods-SocketProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocketProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		592120A027FCF1CDDF17C348 /* Pods-SocketProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocketProjectUITests/Pods-SocketProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +154,8 @@
 				18323827221BEDFC0033AF7B /* AppDelegate.m */,
 				18323829221BEDFC0033AF7B /* ViewController.h */,
 				1832382A221BEDFC0033AF7B /* ViewController.m */,
+				1832388C221D4BFC0033AF7B /* Demo6 */,
+				1832388B221D4BF30033AF7B /* Demo5 */,
 				1832387B221D40EC0033AF7B /* Demo4 */,
 				1832385A221BEED70033AF7B /* Demo3 */,
 				18323859221BEED10033AF7B /* Demo2 */,
@@ -191,6 +211,8 @@
 			children = (
 				18323861221BEEFC0033AF7B /* Demo3ViewController.h */,
 				18323862221BEEFC0033AF7B /* Demo3ViewController.m */,
+				1832387F221D44AB0033AF7B /* Demo3ServerViewController.h */,
+				18323880221D44AB0033AF7B /* Demo3ServerViewController.m */,
 			);
 			path = Demo3;
 			sourceTree = "<group>";
@@ -198,10 +220,34 @@
 		1832387B221D40EC0033AF7B /* Demo4 */ = {
 			isa = PBXGroup;
 			children = (
+				18323884221D46A10033AF7B /* KCView.h */,
+				18323885221D46A10033AF7B /* KCView.m */,
+				18323883221D46A10033AF7B /* UIBezierPath+point.h */,
+				18323882221D46A10033AF7B /* UIBezierPath+point.m */,
 				1832387C221D40F90033AF7B /* Demo4ViewController.h */,
 				1832387D221D40F90033AF7B /* Demo4ViewController.m */,
+				18323888221D46B80033AF7B /* Demo4ServerViewController.h */,
+				18323889221D46B80033AF7B /* Demo4ServerViewController.m */,
 			);
 			path = Demo4;
+			sourceTree = "<group>";
+		};
+		1832388B221D4BF30033AF7B /* Demo5 */ = {
+			isa = PBXGroup;
+			children = (
+				1832388D221D4C060033AF7B /* Demo5ViewController.h */,
+				1832388E221D4C060033AF7B /* Demo5ViewController.m */,
+			);
+			path = Demo5;
+			sourceTree = "<group>";
+		};
+		1832388C221D4BFC0033AF7B /* Demo6 */ = {
+			isa = PBXGroup;
+			children = (
+				18323890221D4C110033AF7B /* Demo6ViewController.h */,
+				18323891221D4C110033AF7B /* Demo6ViewController.m */,
+			);
+			path = Demo6;
 			sourceTree = "<group>";
 		};
 		2A92733708CD1F72D27365E1 /* Frameworks */ = {
@@ -418,10 +464,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18323886221D46A10033AF7B /* UIBezierPath+point.m in Sources */,
 				18323860221BEEF40033AF7B /* Demo2ViewController.m in Sources */,
+				18323892221D4C110033AF7B /* Demo6ViewController.m in Sources */,
 				1832382B221BEDFC0033AF7B /* ViewController.m in Sources */,
 				1832385D221BEEEA0033AF7B /* Demo1ViewController.m in Sources */,
+				1832388A221D46B80033AF7B /* Demo4ServerViewController.m in Sources */,
+				1832388F221D4C060033AF7B /* Demo5ViewController.m in Sources */,
+				18323887221D46A10033AF7B /* KCView.m in Sources */,
 				1832387E221D40F90033AF7B /* Demo4ViewController.m in Sources */,
+				18323881221D44AB0033AF7B /* Demo3ServerViewController.m in Sources */,
 				18323863221BEEFC0033AF7B /* Demo3ViewController.m in Sources */,
 				18323836221BEE010033AF7B /* main.m in Sources */,
 				18323828221BEDFC0033AF7B /* AppDelegate.m in Sources */,

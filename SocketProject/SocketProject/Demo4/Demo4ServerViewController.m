@@ -1,13 +1,13 @@
 //
-//  Demo4ViewController.m
+//  Demo4ServerViewController.m
 //  SocketProject
 //
 //  Created by 帅斌 on 2019/2/20.
 //  Copyright © 2019 dongming. All rights reserved.
 //
-// 客户端
+// 服务器
 
-#import "Demo4ViewController.h"
+#import "Demo4ServerViewController.h"
 #import "UIBezierPath+point.h"
 #import "KCView.h"
 #import <GCDAsyncUdpSocket.h>
@@ -15,13 +15,13 @@
 #define KCScreenWidth [UIScreen mainScreen].bounds.size.width
 #define KCScreenHeight [UIScreen mainScreen].bounds.size.height
 
-@interface Demo4ViewController ()<GCDAsyncUdpSocketDelegate>
+@interface Demo4ServerViewController ()<GCDAsyncUdpSocketDelegate>
 @property (nonatomic, strong) GCDAsyncUdpSocket *udpSocket;
 @property (strong, nonatomic)  KCView *drawView;
 
 @end
 
-@implementation Demo4ViewController
+@implementation Demo4ServerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -52,13 +52,14 @@
         NSData *passData = [NSJSONSerialization dataWithJSONObject:passDic
                                                            options:NSJSONWritingPrettyPrinted
                                                              error:nil];
-        [weakSelf.udpSocket sendData:passData toHost:@"192.168.31.19" port:8070 withTimeout:-1 tag:10088];
+        [weakSelf.udpSocket sendData:passData toHost:@"192.168.31.19" port:8060 withTimeout:-1 tag:10086];
     };
 }
 
 
 #pragma mark - 断开连接
 - (void)didClickDisconnectAction:(id)sender {
+    
     [self.drawView.pathArray removeAllObjects];
     [self.drawView.currentPath removeAllPoints];
     [self.drawView setNeedsDisplay];
@@ -73,7 +74,7 @@
     NSLog(@"创建socket 成功");
     // 2: 绑定socket
     NSError * error = nil;
-    [self.udpSocket bindToPort:8060 error:&error];
+    [self.udpSocket bindToPort:8070 error:&error];
     if (error) {
         //监听错误打印错误信息
         NSLog(@"error:%@",error);
@@ -105,8 +106,6 @@
 // 发送数据失败
 - (void)udpSocket:(GCDAsyncUdpSocket *)sock didNotSendDataWithTag:(long)tag dueToError:(NSError *)error{
     NSLog(@"%ld tag 发送数据失败 : %@",tag,error);
-    
-    
 }
 
 // 接受数据的回调
@@ -144,5 +143,7 @@
 - (void)udpSocketDidClose:(GCDAsyncUdpSocket *)sock withError:(NSError *)error{
     NSLog(@"关闭失败: %@",error);
 }
+
+
 
 @end
