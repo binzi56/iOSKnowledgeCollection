@@ -38,6 +38,10 @@
 * mac地址只在本地有效，通过路由器传输过程，mac地址信息会发生变化
 * 路由器根据路由表识别目标IP地址网段信息，确认是否可以进行转发，或是进行数据包的丢弃
 
+#### 3.5 CocoaAsyncSocket源码分析
+![CocoaAsyncSocket源码分析](https://upload-images.jianshu.io/upload_images/1893416-10ec1445bd532622.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ## 学习：
 * [OSI七层模型、数据封装与解封装过程、TCP三次握手、四次挥手](http://blog.51cto.com/13055758/2061535)
 * [iOS socket网络编程(一)](https://www.jianshu.com/p/0a050f098a1e)
