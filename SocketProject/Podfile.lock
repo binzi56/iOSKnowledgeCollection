@@ -1,16 +1,20 @@
 PODS:
   - CocoaAsyncSocket (7.6.3)
+  - SocketRocket (0.5.1)
 
 DEPENDENCIES:
   - CocoaAsyncSocket (~> 7.6.3)
+  - SocketRocket
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CocoaAsyncSocket
+    - SocketRocket
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-PODFILE CHECKSUM: 40dcfd49d42e2ea3f85d13aa8c83c1238fd58f12
+PODFILE CHECKSUM: 97ec15b1fc3ac6a64784a2ec19f8332175631a52
 
 COCOAPODS: 1.5.3

@@ -105,16 +105,9 @@ UITableViewDataSource
                    @"class": @[@"Demo2ViewController",
                                @"Demo3ViewController",
                                @"Demo4ViewController"]},
-                 @{@"title":@"3. 自定义KVO",
-                   @"value": @[@"Demo3 | 自定义KVO"],
-                   @"class": @[@"Demo3ViewController"]},
-                 @{@"title":@"4. KVO知识延展",
-                   @"value": @[@"Demo4 | 自动销毁监听",
-                               @"Demo5 | block封装",
-                               @"Demo6 | YY封装KVO"],
-                   @"class": @[@"Demo4ViewController",
-                               @"Demo5ViewController",
-                               @"Demo6ViewController"]}
+                 @{@"title":@"3. 构建TCP框架",
+                   @"value": @[@"Demo5 | WebSocket初体验"],
+                   @"class": @[@"Demo5ViewController"]}
                  ];
 }
 

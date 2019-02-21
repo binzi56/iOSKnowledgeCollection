@@ -7,5 +7,5 @@ target 'SocketProject' do
 
   # Pods for SocketProject
 pod 'CocoaAsyncSocket', '~> 7.6.3'
-
+pod 'SocketRocket'
 end

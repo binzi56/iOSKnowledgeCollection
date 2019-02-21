@@ -6,7 +6,7 @@
 3. 构建TCP框架
 
 ### 二、内容缩略图
-
+![内容缩略图](https://upload-images.jianshu.io/upload_images/1893416-87e535e94e1cc0c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ### 三、其他
 #### 3.1 Socket位置
