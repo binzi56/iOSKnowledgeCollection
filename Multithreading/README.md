@@ -21,6 +21,8 @@
 #### 3.3 NSOperation相关
 ![NSOperation相关](https://upload-images.jianshu.io/upload_images/1893416-b6c1ff68a92fef68.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+#### 3.4 概览多线程相关方法
+![概览多线程相关方法](https://upload-images.jianshu.io/upload_images/1893416-6f44993f157a33d4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 学习：
 [iOS多线程——Dispatch Source](https://www.jianshu.com/p/880c2f9301b6)
